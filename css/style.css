@@ -234,14 +234,11 @@
       display: inherit;
     }
   }
-  .HIDDEN_MOBILE {
+@media only screen and (min-width: 800px){
+  .HIDDEN_DESKTOP {
     display: none;
   }
-  @media only screen and (min-width: 800px){
-    .HIDDEN_MOBILE {
-      display: inherit;
-    }
-  }
+}
 .MAP {
   overflow:hidden;
   position:relative;
@@ -368,6 +365,7 @@
 }
 .PAGE_PADDING {
   padding-right: 1em;
+  padding-left: 1.5em;
 }
   @media only screen and (min-width: 1280px){
     .PAGE_PADDING{
@@ -420,8 +418,13 @@
   text-align: center;
 }
 .TEXT_GIGANTIC {
-  font-size: 200%;
+  font-size: 150%;
 }
+  @media only screen and (min-width: 800px){
+    .TEXT_GIGANTIC {
+      font-size: 200%;
+    }
+  }
 .TEXT_GOLD {
   color: #fc0;
 }
