@@ -1,8 +1,7 @@
 /* основные стилевые свойства */
-*{
+* {
   margin: 0;
   font-family: 'Comfortaa', cursive;
-  max-width: 1920px;
 }
   @media only screen and (min-width: 1280px){
     * {
@@ -104,7 +103,6 @@
   width: 100%;
   justify-content: space-around;
   align-items: baseline;
-  text-align: justify;
   margin: 1em;
 }
   @media only screen and (min-width: 800px){
@@ -331,7 +329,7 @@
   padding: 1em 1em 1em 1em;
 }
 .PADDING_A_5_10_5_10 {
-  padding: 1em 2em 1em 2em;
+  padding: 2em 2em 2em 2em;
 }
   @media only screen and (min-width: 1440px){
     .PADDING_A_5_10_5_10 {
@@ -368,8 +366,8 @@
 }
   @media only screen and (min-width: 1280px){
     .PAGE_PADDING{
-      padding-left: 8em;
-      padding-right: 10em;
+      padding-left: 4em;
+      padding-right: 4em;
     }
   }
   @media only screen and (min-width: 1440px){
